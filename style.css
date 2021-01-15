@@ -80,6 +80,7 @@ main {
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
+  border: 2px solid #fff;
   border-radius: 2rem;
 }
 .link {
@@ -149,6 +150,7 @@ main {
   border-radius: 1rem;
   margin: 2rem 0rem;
   padding: 2rem;
+  border: 1px solid #fff;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
@@ -171,6 +173,7 @@ main {
 }
 .card-info {
   display: flex;
+  margin-left: 15px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -180,4 +183,12 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media(min-width: 780px){
+
+  .glass {
+    width: 90%;
+  }
+
 }
