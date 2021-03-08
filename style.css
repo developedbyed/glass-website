@@ -32,6 +32,24 @@ main {
   justify-content: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.nextpage:hover {
+  color: #426696;
+}
+
+.nextpage {
+  margin: 10px;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 2rem;
+  position: relative;
+}
+
 .glass {
   background: white;
   min-height: 80vh;
