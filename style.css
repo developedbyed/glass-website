@@ -63,10 +63,34 @@ main {
 .circle1 {
   top: 5%;
   right: 15%;
+  animation: updown 3s linear infinite;
 }
 .circle2 {
   bottom: 5%;
   left: 10%;
+  animation: updown 4s linear infinite;
+}
+
+@keyframes updown {
+  0%,100%
+  {
+    transform: translateY(0);
+  }
+  50%
+  {
+    transform: translateY(50px);
+  }
+}
+  @keyframes updown2 {
+    0%,100%
+    {
+      transform: translateY(0);
+    }
+    50%
+    {
+      transform: translateY(10px);
+    }
+  
 }
 .dashboard {
   flex: 1;
@@ -108,6 +132,7 @@ main {
   position: absolute;
   top: -10%;
   right: 10%;
+  animation: updown2 3s linear infinite;
 }
 .pro h2 {
   width: 40%;
