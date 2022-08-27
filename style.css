@@ -153,6 +153,9 @@ main {
   justify-content: space-between;
 }
 
+.card img{
+  padding-right:20px;
+}
 .progress {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   width: 100%;
