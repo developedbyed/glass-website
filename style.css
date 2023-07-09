@@ -34,7 +34,7 @@ main {
 
 .glass {
   background: white;
-  min-height: 80vh;
+  height: 80vh;
   width: 60%;
   background: linear-gradient(
     to right bottom,
@@ -69,6 +69,9 @@ main {
   left: 10%;
 }
 .dashboard {
+  padding: 3rem 0rem;
+  font-size: 12px;
+  gap: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -84,7 +87,7 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
@@ -100,13 +103,13 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   color: white;
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   position: relative;
 }
 
 .pro img {
   position: absolute;
-  top: -10%;
+  top: -22%;
   right: 10%;
 }
 .pro h2 {
@@ -117,7 +120,7 @@ main {
 
 /* GAMES */
 .status {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .status input {
@@ -133,13 +136,15 @@ main {
 }
 
 .games {
-  margin: 5rem;
+ 
+  margin: 5rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .card {
+  font-size: 12px;
   display: flex;
   background: linear-gradient(
     to left top,
@@ -148,7 +153,7 @@ main {
   );
   border-radius: 1rem;
   margin: 2rem 0rem;
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
